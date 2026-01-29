@@ -50,7 +50,7 @@
 portfolio-java-fundamentals/
 │
 ├── Abstraction LoveShackSmoothies/
-│       └── src/org.evavdb1.smoothies/
+│       └── src/org/evavdb1/smoothies/
 │               ├── SmoothiesMain.java
 │               │
 │               ├── mixables/fruits/
@@ -74,12 +74,12 @@ portfolio-java-fundamentals/
 │                     └── SmoothieRecipe.java (enum)
 │
 ├── Arrays ShoePair/
-│       └── src/org.evavdb1.shoepair/
+│       └── src/org/evavdb1/shoepair/
 │               ├── ShoepairMain.java
 │               └── Shoepair.java
 │
 ├── Core Casino/
-│       ├── src/org.evavdb1.casino/
+│       ├── src/org/evavdb1/casino/
 │       │       ├── CasinoMain.java
 │       │       ├── Casino.java
 │       │       ├── Gambler.java
@@ -89,7 +89,7 @@ portfolio-java-fundamentals/
 │               └── casino class diagram.puml
 │
 ├── Core ForestNotebook/
-│       └── src/org.evavdb1.forestnotebook/
+│       └── src/org/evavdb1/forestnotebook/
 │               ├── NatureApp.java
 │               ├── entities/animal_entities/
 │               │          ├── Animal.java
@@ -108,7 +108,7 @@ portfolio-java-fundamentals/
 │                          └── ForestNoteBook.java
 │
 ├── Core IceCreamShop/
-│       └── src/org.evavdb1.icecreamshop/
+│       └── src/org/evavdb1/icecreamshop/
 │               ├── IceCreamAppV2.java
 │               ├── eatables/
 │               │          ├── Cone.java
@@ -128,7 +128,7 @@ portfolio-java-fundamentals/
 │                          └── Stock.java
 │
 ├── Exceptions BankATM/
-│       ├── src/org.evavdb1.bankatm/
+│       ├── src/org/evavdb1/bankatm/
 │       │       ├── ATMMain.java
 │       │       ├── Account.java
 │       │       ├── ATM.java
@@ -147,7 +147,7 @@ portfolio-java-fundamentals/
 │               └── atm class diagram.puml
 │
 ├── Inheritance Robots/
-│       └── src/org.evavdb1.robots/
+│       └── src/org/evavdb1/robots/
 │               ├── RobotApp.java
 │               ├── BendingRobot.java
 │               ├── CrazyRobot.java
@@ -155,7 +155,7 @@ portfolio-java-fundamentals/
 │               └── Robot.java
 │
 ├── Interface MediaPlayer/
-│       └── src/org.evavdb1.mediaplayer/
+│       └── src/org/evavdb1/mediaplayer/
 │               ├── AdapterPatternDemo.java
 │               ├── AdvancedMediaPlayer.java (interface)
 │               ├── AudioPlayer.java
@@ -165,7 +165,7 @@ portfolio-java-fundamentals/
 │               └── VLCPlayer.java
 │
 ├── Interface WhyPhone/
-│       └── src/org.evavdb1.whyphone/
+│       └── src/org/evavdb1/whyphone/
 │               ├── WhyPhoneMainApp.java
 │               ├── DummyPhone.java
 │               ├── ICamera.java (interface)
