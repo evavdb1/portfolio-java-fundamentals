@@ -1,0 +1,48 @@
+@startuml
+class CasinoMain {
++ {static} Main(args: String[]): void
+}
+class Gambler {
+- name: String
+- wallet: int
++ walletOut(amount: int): void
++ walletIn(amount: int): void
+}
+abstract class Casino {
++ play(gambler: Gambler): void
+}
+class ClawMachine extends Casino {
+- numberOfTries: int
+- moneyInTheBank: int
++ getMoneyInTheBank(): int
+- readyToWin(): boolean
+- readyToWinBigTime(): boolean
++ playGame(moneyPaid: int): String
+}
+class SlotMachine extends Casino {
+- currentPayout: int
+- odds: int
+- whatOddsToGive()
++ playTheSlots(moneyPaid: int): int
++ getCurrentPayout(): int
+}
+class Lotto extends Casino {
+- number1: int
+- number2: int
+- number3: int
++ currentPayout: int
++ didYouWin: boolean
+- rollRandomNumbers()
+- compareNumbers(number1: int, number2: int, number3: int)
++ getNumbers(number1: int, number2: int, number3: int, moneyPutIn: int)
+}
+class Roulette extends Casino  {
+- amountOfTimesHouseLost: int
+- winningNumber: int
+- payout: int
++ Roulette(amountOfTimesHouseLost: int, payout: int)
++ play (gambler: Gambler): void {overridden}
+- shouldFailSafeBeUsed(numberChosen: int)
++ rollTheRoulette(moneyPutIn: int, numberChosen: int): int
+}
+@enduml
