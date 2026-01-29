@@ -16,7 +16,7 @@
 
 ## Features
 - Object-oriented programming: classes, objects, encapsulation, and clear responsibility boundaries
-- Use of core data types and control flow (if/else, loops, switch) 
+- Use of core data types and control flow (if/else, loops, switch)- 
 - Collections Framework usage (List, Map) for data storage and processing
 - Console-based user interaction using Scanner
 - Input validation and basic exception handling (try/catch)
