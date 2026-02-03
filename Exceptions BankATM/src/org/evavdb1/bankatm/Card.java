@@ -5,9 +5,10 @@ public class Card {
     private boolean isValid;
     private int attempts;
 
-    public Card(String cardNumber, boolean isValid) {
+    public Card(String cardNumber, boolean isValid, int attempts) {
         this.cardNumber = cardNumber;
         this.isValid = isValid;
+        this.attempts = attempts;
     }
 
     public int getAttempts() {        return attempts;    }
